@@ -11,7 +11,7 @@ public class SignOperatorExample {
 		System.out.println("result2 = " + result2);
 		
 		short s = 100;
-		short result3 = (short)-s; // short result3 = -s; //컴파일 에러로 인한 수정
+		//short result3 = (short)-s; // short result3 = -s; //컴파일 에러로 인한 수정
 		int result4 = -s;
 		System.out.println("result4 = " + result4);
 	}
