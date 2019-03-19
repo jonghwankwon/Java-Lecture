@@ -1,6 +1,6 @@
-package exercise;
+package Practice05;
 
-public class Exercise08 {
+public class Prac08 {
 
 	public static void main(String[] args) {
 		int[][] array = { 
@@ -11,14 +11,14 @@ public class Exercise08 {
 
 		int sum = 0;
 		double avg = 0.0;
-
 		int count = 0;
 		int min = array[0][0];
 		int max = array[0][0];
+		
 		for(int i=0; i<array.length; i++) {
 			for(int k=0; k<array[i].length; k++) {
 				sum += array[i][k];
-				count++;
+				count++;				
 				if (min > array[i][k])
 					min = array[i][k];
 				if (max < array[i][k])

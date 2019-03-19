@@ -1,6 +1,6 @@
-package exercise;
+package Practice05;
 
-public class Exercise07 {
+public class Prac07 {
 
 	public static void main(String[] args) {
 		int max = 0;
