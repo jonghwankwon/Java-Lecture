@@ -5,4 +5,12 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="sec13_01.A"/>
+<fullyQualifiedTypeName name="sec13_03.package1.A"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="openchallenge06.Calculate.Add"/>
+<fullyQualifiedTypeName name="openchallenge06.Calculate.Sub"/>
+<fullyQualifiedTypeName name="openchallenge06.Calculate.Mul"/>
+<fullyQualifiedTypeName name="openchallenge06.Calculate.Div"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
