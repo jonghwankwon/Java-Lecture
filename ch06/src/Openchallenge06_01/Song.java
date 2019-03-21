@@ -1,9 +1,9 @@
 package Openchallenge06_01;
 
 public class Song {
-	private String title, artist, album;
-	private String composer[];
-	private int year, track;
+	public String title, artist, album;
+	public String composer[];
+	public int year, track;
 
 	Song() { this(null, null, null, null, 0, 0); }
 

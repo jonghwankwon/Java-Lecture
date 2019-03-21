@@ -13,4 +13,9 @@
 <fullyQualifiedTypeName name="openchallenge06.Calculate.Mul"/>
 <fullyQualifiedTypeName name="openchallenge06.Calculate.Div"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="sec06_01_1.A"/>
+<fullyQualifiedTypeName name="sec06_01.A"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 </qualifiedTypeNameHistroy>
