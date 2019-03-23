@@ -1,7 +1,7 @@
 package Practice5;
 
 public class Child extends Parent {
-	public int studentNo; //public -> private 변경
+	private int studentNo;
 
 	//수정
 	public Child(String name, int studentNo) {
