@@ -1,11 +1,9 @@
 package sec04_01;
 
-import sec03_01.RemoteControl;
-
 public class Audio implements RemoteControl {
 	//필드
 	private int volume;
-
+	
 	//turnOn() 추상 메소드의 실체 메소드
 	public void turnOn() {
 		System.out.println("Audio를 켭니다.");

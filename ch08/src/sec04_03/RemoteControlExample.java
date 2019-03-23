@@ -1,8 +1,8 @@
 package sec04_03;
 
-import sec04_01.RemoteControl.*;
+import sec04_01.*;
 
-public class RemoteControl {
+public class RemoteControlExample {
 	public static void main(String[] args) {
 		RemoteControl.changeBattery();
 	}
