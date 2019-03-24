@@ -1,6 +1,6 @@
 package sec08_03;
 
-public class Calcilator {
+public class Calculator {
 	int plus(int x, int y) {
 		int result = x + y;
 		return result;

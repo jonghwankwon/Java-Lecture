@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="D:\ezen_java" key="org.eclipse.jdt.ui.last.external.project"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
 	</section>
@@ -147,6 +148,8 @@
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
 	<section name="quick_assist_proposal_size">
+		<item value="252" key="size.y"/>
+		<item value="369" key="size.x"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>

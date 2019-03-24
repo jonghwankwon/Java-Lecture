@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="sec13_01.A"/>
 <fullyQualifiedTypeName name="sec13_03.package1.A"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="openchallenge06.Calculate.Add"/>
 <fullyQualifiedTypeName name="openchallenge06.Calculate.Sub"/>
 <fullyQualifiedTypeName name="openchallenge06.Calculate.Mul"/>
@@ -17,5 +14,24 @@
 <fullyQualifiedTypeName name="sec06_01_1.A"/>
 <fullyQualifiedTypeName name="sec06_01.A"/>
 <fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="sec02_02.RemoteControl"/>
+<fullyQualifiedTypeName name="sec05_05.Bus"/>
+<fullyQualifiedTypeName name="sec05_04.Vehucle"/>
+<fullyQualifiedTypeName name="sec06_01.ImplentationC"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="sec07_02.ParentInterface"/>
+<fullyQualifiedTypeName name="Practice3.Soundable"/>
+<fullyQualifiedTypeName name="Openchallenge08_01.Calculator"/>
+<fullyQualifiedTypeName name="sec03_03.SmartTelevision"/>
+<fullyQualifiedTypeName name="sec04_01.Audio"/>
+<fullyQualifiedTypeName name="sec04_01.Television"/>
+<fullyQualifiedTypeName name="sec03_03.RemoteControl"/>
+<fullyQualifiedTypeName name="sec04_01.RemoteControl"/>
+<fullyQualifiedTypeName name="Openchallenge08_02.MyMulti"/>
+<fullyQualifiedTypeName name="Openchallenge08_03.MySort"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

@@ -1,9 +1,9 @@
 package sec08_03;
 
-public class CalcilatorExample {
+public class CalculatorExample {
 
 	public static void main(String[] args) {
-		Calcilator myCalc = new Calcilator();
+		Calculator myCalc = new Calculator();
 		myCalc.execute();
 	}
 }
