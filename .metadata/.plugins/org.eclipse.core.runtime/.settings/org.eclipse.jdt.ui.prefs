@@ -5,7 +5,10 @@ content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
 editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup=false
+<<<<<<< HEAD
 markOccurrences=false
+=======
+>>>>>>> 8a5a4d279ef6ff2d1f02b415ea3bd48ec105bf6e
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=13

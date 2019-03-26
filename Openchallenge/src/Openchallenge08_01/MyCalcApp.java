@@ -5,7 +5,7 @@ public class MyCalcApp {
 		MyCalc myCalc = new MyCalc();
 		int testX = 50;
 		int testY = 13;
-		
+
 		System.out.println(testX + ", " + testY);
 		System.out.println("add: " + myCalc.add(testX, testY));
 		System.out.println();
