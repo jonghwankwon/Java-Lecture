@@ -3,6 +3,7 @@ package Openchallenge08_03;
 import java.util.Arrays;
 
 public class MySortImpl implements MySort {
+
 	@Override
 	public String[] sort(String[] strArray) {
 		int size = strArray.length;
