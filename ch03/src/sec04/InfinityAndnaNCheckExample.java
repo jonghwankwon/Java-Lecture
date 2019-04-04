@@ -1,5 +1,6 @@
 package sec04;
 
+//Infinity와 NaN
 public class InfinityAndnaNCheckExample {
 
 	public static void main(String[] args) {

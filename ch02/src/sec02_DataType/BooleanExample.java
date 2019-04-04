@@ -1,4 +1,4 @@
-package sec02;
+package sec02_DataType;
 
 public class BooleanExample {
 

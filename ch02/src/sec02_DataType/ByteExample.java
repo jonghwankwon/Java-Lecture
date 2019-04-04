@@ -1,5 +1,6 @@
-package sec02;
+package sec02_DataType;
 
+//비트 반전 연산자
 public class ByteExample {
 
 	public static void main(String[] args) {

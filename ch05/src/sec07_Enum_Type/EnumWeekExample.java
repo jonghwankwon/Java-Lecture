@@ -1,8 +1,9 @@
-package sec07;
+package sec07_Enum_Type;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+//열거 타입과 열거 상수
 public class EnumWeekExample {
 	public static void main(String[] args) {
 		Week today = null;

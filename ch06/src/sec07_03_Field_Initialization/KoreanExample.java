@@ -1,5 +1,6 @@
-package sec07_03;
+package sec07_03_Field_Initialization;
 
+//객체 생성 후 필드값 출력
 public class KoreanExample {
 
 	public static void main(String[] args) {

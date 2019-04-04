@@ -1,4 +1,4 @@
-package sec04;
+package sec04_Class_Declaration;
 
 public class StudentExample {
 

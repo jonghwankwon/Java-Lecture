@@ -1,5 +1,6 @@
 package sec01;
 
+//비트 반전 연산자
 public class BitReverseOperatorExample {
 
 	public static void main(String[] args) {

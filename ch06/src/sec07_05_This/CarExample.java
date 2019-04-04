@@ -1,7 +1,8 @@
-package sec07_05;
+package sec07_05_This;
 
-import sec07_05.Car;
+import sec07_05_This.Car;
 
+//객채 생성 시 생성자 선택
 public class CarExample {
 
 	public static void main(String[] args) {

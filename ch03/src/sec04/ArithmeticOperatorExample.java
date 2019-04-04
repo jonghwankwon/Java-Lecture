@@ -1,5 +1,6 @@
 package sec04;
 
+//산술 연산자
 public class ArithmeticOperatorExample {
 
 	public static void main(String[] args) {

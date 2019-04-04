@@ -1,5 +1,6 @@
-package sec07_04;
+package sec07_04_Overloading;
 
+//객체 생성 시 생성자 선택
 public class CarExample {
 
 	public static void main(String[] args) {

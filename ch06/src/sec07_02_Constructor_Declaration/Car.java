@@ -1,4 +1,4 @@
-package sec07_02;
+package sec07_02_Constructor_Declaration;
 
 public class Car {
 	//생성자

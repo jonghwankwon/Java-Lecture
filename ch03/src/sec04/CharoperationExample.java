@@ -1,5 +1,6 @@
 package sec04;
 
+//char 타입 연산
 public class CharoperationExample {
 
 	public static void main(String[] args) {

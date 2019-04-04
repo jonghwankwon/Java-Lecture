@@ -1,5 +1,6 @@
 package sec04;
 
+//정확하게 계산할 때에는 부동소수점 타입을 사용하지 않는다.
 public class AccuracyExample1 {
 
 	public static void main(String[] args) {

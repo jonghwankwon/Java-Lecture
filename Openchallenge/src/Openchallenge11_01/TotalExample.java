@@ -1,20 +1,25 @@
 package Openchallenge11_01;
 
+// i값 Stirng 변환 -> String 값 char배열로 변환 -> 루프 실행 -> 
+//char 값 넘버 변환 -> cnt 에 곱셈 -> total 에 덧셈
+
 public class TotalExample {
 	public static void main(String[] args) {
-		int result = 1; 
-		int sum = 0;
-		String str;
+		int total = 0;
 
 		for(int i=10; i<=1000; i++){
-			str=String.valueOf(i);
-			result = 1;
 
-			for(int k=0; k<str.length(); k++){
-				result *=(int)str.charAt(k)-48;
+			Integer num = i;
+			int cnt = 1;
+			String value = num.toString();
+			char[] chArray = value.toCharArray();
+
+			for( char ch : chArray){
+				cnt *= Character.getNumericValue(ch);
 			}
-			sum += result;
+			total += cnt; 
 		}
-		System.out.println(sum);
+		System.out.println(total);
+
 	}
 }

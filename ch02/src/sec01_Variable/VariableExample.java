@@ -1,5 +1,6 @@
-package sec01;
+package sec01_Variable;
 
+//변수 선언과 초기화
 public class VariableExample {
 
 	public static void main(String[] args) {

@@ -1,5 +1,6 @@
-package sec07_04;
+package sec07_04_Overloading;
 
+//생성자의 오버로딩
 public class Car {
 	//필드
 	String company = "현대자동차";

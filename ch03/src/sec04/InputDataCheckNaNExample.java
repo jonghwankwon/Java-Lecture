@@ -1,5 +1,6 @@
 package sec04;
 
+//"NaN" 문자열의 문제점
 public class InputDataCheckNaNExample {
 
 	public static void main(String[] args) {

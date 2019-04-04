@@ -1,4 +1,4 @@
-package sec06;
+package sec06_Array_Type;
 
 import java.util.Arrays;
 

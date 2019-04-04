@@ -1,5 +1,6 @@
-package sec01;
+package sec01_Variable;
 
+//변수의 사용 범위
 public class VariableScopeExample {
 
 	public static void main(String[] args) {

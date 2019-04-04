@@ -1,4 +1,4 @@
-package sec03;
+package sec03_Promotion;
 
 public class FromIntToDouble {
 

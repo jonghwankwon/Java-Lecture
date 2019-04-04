@@ -1,4 +1,4 @@
-package sec05;
+package sec05_String_Type;
 
 public class StringEqualsExample {
 

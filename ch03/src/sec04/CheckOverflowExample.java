@@ -1,5 +1,6 @@
 package sec04;
 
+//산술 연산 전에 오버플로우를 탐지
 public class CheckOverflowExample {
 
 	public static void main(String[] args) {
