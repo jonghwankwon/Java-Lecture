@@ -1,4 +1,4 @@
-package Practice01;
+package datebase;
 
 public class MemberDTO {
 	private int id;

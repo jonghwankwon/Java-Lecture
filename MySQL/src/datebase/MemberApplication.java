@@ -1,12 +1,12 @@
-package Practice01;
+package datebase;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-import Practice01.MemberDAO;
-import Practice01.MemberDTO;
+import datebase.MemberDAO;
+import datebase.MemberDTO;
 
 public class MemberApplication {
 	static Scanner scan = new Scanner(System.in);

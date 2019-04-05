@@ -39,6 +39,8 @@
 		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
 		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
 	</section>
+	<section name="BreadcrumbItemDropDown">
+	</section>
 	<section name="OverrideMethodDialog">
 		<item value="true" key="showtypes"/>
 	</section>
@@ -52,7 +54,7 @@
 	<section name="completion_proposal_size">
 	</section>
 	<section name="AddGetterSetterDialog">
-		<item value="true" key="SortOrdering"/>
+		<item value="false" key="SortOrdering"/>
 		<item value="false" key="RemoveFinal"/>
 	</section>
 	<section name="JavaElementSearchActions">

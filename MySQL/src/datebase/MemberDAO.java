@@ -1,4 +1,4 @@
-package Practice01;
+package datebase;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
