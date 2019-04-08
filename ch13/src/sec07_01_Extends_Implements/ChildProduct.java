@@ -1,4 +1,4 @@
-package sec07_01_;
+package sec07_01_Extends_Implements;
 
 public class ChildProduct<T, M, C> extends Product<T, M> {
 	private C company;

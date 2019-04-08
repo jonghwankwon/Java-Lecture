@@ -1,4 +1,4 @@
-package sec07_01_;
+package sec07_01_Extends_Implements;
 
 public interface Storage<T> {
 	public void add(T item, int index);

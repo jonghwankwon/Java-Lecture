@@ -1,4 +1,4 @@
-package sec07_01_;
+package sec07_01_Extends_Implements;
 
 public class ChildProductAndStorageExample {
 	public static void main(String[] args) {
