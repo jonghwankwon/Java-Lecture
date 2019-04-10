@@ -1,6 +1,5 @@
 package sec11_04_Arrays_Search;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import sec11_03_Arrays_Sort.Member;

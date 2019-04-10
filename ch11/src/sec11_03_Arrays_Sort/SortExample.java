@@ -25,7 +25,7 @@ public class SortExample {
 		Member[] members = { m1, m2, m3 };
 		Arrays.sort(members);
 		for(int i=0; i<members.length; i++) {
-			System.out.println("members[" + i + "].name=" + members[i].name);
+			System.out.print("members[" + i + "].name=" + members[i].name + " | ");
 		}
 	}
 }
