@@ -1,3 +1,4 @@
+Console.highWaterMark=88000
 DEBUG.consoleOpenOnOut=false
 StringVariablePreferencePage=124,104,103,82,
 eclipse.preferences.version=1
