@@ -37,23 +37,15 @@ public class Member implements Comparable<Member> {
 		}
 	}
 
+
+	@Override
+	public int compareTo(Member m) {
+		if (name.compareTo(m.getName()) > 0) return 1;
+		if (name.compareTo(m.getName()) < 0) return -1;
+		return tel.compareTo(m.getTel());
+	}
 	@Override
 	public String toString() {
 		return "Member [name=" + name + ", email=" + email + ", tel=" + tel + "]";
 	}
-
-	@Override
-	public int compareTo(Member o) {
-		if(name.compareTo(o.getName()) == 0) {
-			if(tel.compareTo(o.getTel()) == 0) {
-				return 0;
-			}else {
-				return tel.compareTo(o.getTel());
-			}
-		}else {
-			return name.compareTo(o.getName());
-		}
-	}
-
-
 }

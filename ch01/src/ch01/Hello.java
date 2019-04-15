@@ -1,10 +1,26 @@
 package ch01;
 
+import java.util.Scanner;
+
 public class Hello {
 
-	public static void main(String[] args) {
-		System.out.println("Hello Java World!");
-		System.out.println("¾È³çÇÏ¼¼¿ä. ÀÚ¹Ù ¼¼»ó!");
+	public static void  main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš” > ");
+		int start = sc.nextInt();
+		System.out.print("ìˆ«ìžë¥¼ í•˜ë‚˜ ë” ìž…ë ¥í•˜ì„¸ìš” > ");
+		int end = sc.nextInt();
+
+		System.out.println(test(start, end));
+	}
+	
+	
+	public static int test(int box1, int box2){
+		int k = 0;
+		for( ; box1<=box2; box1++) {
+			k = k+box1;
+		}
+		return k;
 	}
 
 }
