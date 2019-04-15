@@ -11,11 +11,11 @@ public class RandomExample {
 			int numFile = (int)(Math.random() * 9000) + 1000;
 			int numContent = (int)(Math.random() * 3) + 1;
 			if (numFile <= 3333) {
-				fileName = "c:/Temp/Ex04/low/" + numContent + "/" + numFile + ".txt";
+				fileName = "c:/Temp/Test/low/" + numContent + "/" + numFile + ".txt";
 			} else if (numFile <= 6666) {
-				fileName = "c:/Temp/Ex04/mid/" + numContent + "/" + numFile + ".txt";
+				fileName = "c:/Temp/Test/mid/" + numContent + "/" + numFile + ".txt";
 			} else {
-				fileName = "c:/Temp/Ex04/high/" + numContent + "/" + numFile + ".txt";
+				fileName = "c:/Temp/Test/high/" + numContent + "/" + numFile + ".txt";
 			}
 			FileOutputStream fos = new FileOutputStream(fileName);
 			int content = (int)'0' + numContent;
@@ -25,23 +25,23 @@ public class RandomExample {
 		}
 	}
 	static void mkdirs() {
-		File file = new File("c:/Temp/Ex04/low/1");
+		File file = new File("c:/Temp/Test/low/1");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/low/2");
+		file = new File("c:/Temp/Test/low/2");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/low/3");
+		file = new File("c:/Temp/Test/low/3");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/mid/1");
+		file = new File("c:/Temp/Test/mid/1");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/mid/2");
+		file = new File("c:/Temp/Test/mid/2");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/mid/3");
+		file = new File("c:/Temp/Test/mid/3");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/high/1");
+		file = new File("c:/Temp/Test/high/1");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/high/2");
+		file = new File("c:/Temp/Test/high/2");
 		file.mkdirs();
-		file = new File("c:/Temp/Ex04/high/3");
+		file = new File("c:/Temp/Test/high/3");
 		file.mkdirs();
 	}
 }

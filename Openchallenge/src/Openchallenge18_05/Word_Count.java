@@ -24,7 +24,6 @@ public class Word_Count {
 		String line = null;
 		HashMap<String, Integer> wordMap = new HashMap<String, Integer>();
 
-		// 파일에서 읽어서 wordMap에 저장
 		int count = 0;
 		while ((line = br.readLine()) != null) {
 			StringTokenizer st = new StringTokenizer(line, ",. ?!()");
@@ -38,6 +37,8 @@ public class Word_Count {
 					wordMap.put(word, 1);
 				}
 			}
+			
+			
 		}
 		System.out.println("총 단어수 = " + count);
 		count = 0;
