@@ -1,11 +1,11 @@
 package Openchallenge14_02;
 
-public class Member implements Comparable<Object> {
+public class Member implements Comparable<Member> {
 	private String name;
 	private String id;
 	private String password;
 	private int age;
-	
+
 	public Member(String name, String id, String password, int age) {
 		super();
 		this.name = name;
@@ -37,17 +37,13 @@ public class Member implements Comparable<Object> {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
+
 	@Override
-	public int compareTo(Object o) {
-		if (o instanceof Member) {
-			Member m = (Member)o;
-			if (this.age > m.age)
-				return 1;
-			if (this.age < m.age)
-				return -1;
-			return 0;
-		}
-		return 100;
+	public int compareTo(Member m) {
+		if (this.age > m.age)
+			return 1;
+		if (this.age < m.age)
+			return -1;
+		return 0;
 	}
 }

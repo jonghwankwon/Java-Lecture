@@ -10,27 +10,27 @@ public class HexaDumpExample {
 			BufferedInputStream bis = new BufferedInputStream(fis);
 			byte[] buffer = new byte[16];	//한번에 16개씩 읽도록
 			int offset = 0, len = 0;
-
+			
 			while ((len = bis.read(buffer)) != -1) {
-				System.out.printf("%08X: ", offset);
+				
+				System.out.printf("%08X: ", offset);	// %x는소문자출력과 X는대문자 출력
 				offset += len;
 				// print Hex Code 출력
-				for(int i=0; i<len; i++) {
-					System.out.printf("%02X " , buffer[i]);
-					if(i==7)
+				for(int i=0; i<len; i++) {	
+					System.out.printf("%02X " , buffer[i]);	// 2자리씩 출력 6C 65 6E....
+					if(i==7)	// i가 7이 넘으면 " "공백을 출력
 						System.out.print(" ");
 				}
 				// print 문자열로 출력
-				for (int k=0; k<offset+16; k++) { 
+				for (int k=0; k<len; k++) { 
 					if (k == len)    
 						break;
-					if (buffer[k] <= 32 || buffer[k] >= 127) {	//공백은 .으로 처리 
+					if (buffer[k] <= 32 || buffer[k] >= 127) {	//공백은 "."으로 출력
 						System.out.print(".");
 					} else {
-						System.out.format("%c", buffer[k]);
+						System.out.format("%c", buffer[k]); // 공백이 아니라면 하나의 문자를 출력(%c)
 					}
 				}
-				offset += 16; 
 				System.out.println();
 			}
 			bis.close();

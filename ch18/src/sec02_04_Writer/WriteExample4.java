@@ -3,7 +3,7 @@ package sec02_04_Writer;
 import java.io.FileWriter;
 import java.io.Writer;
 
-//Write(Strinf str)와 write(String str, int off, int len)
+//Write(String str)와 write(String str, int off, int len)
 public class WriteExample4 {
 	public static void main(String[] args) throws Exception {
 		Writer wirter = new FileWriter("C:/Temp/test.txt");

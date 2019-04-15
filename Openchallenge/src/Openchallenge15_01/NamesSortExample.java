@@ -51,7 +51,6 @@ public class NamesSortExample {
 			}
 		}
 	}
-	
 	static int countDistinctNames(String names[]) {
 		int count = 1;
 		for (int i=1; i<names.length; i++) {

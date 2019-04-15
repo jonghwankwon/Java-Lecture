@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class SwitchStringExample {
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.print("직급을 입력하세요: ");
-		String position = scan.next();
+		String position = sc.next();
 		
 		switch(position) {
 		case "부장":
@@ -17,6 +17,6 @@ public class SwitchStringExample {
 		default:
 			System.out.println("300만원");
 		}
-		scan.close();
+		sc.close();
 	}
 }
